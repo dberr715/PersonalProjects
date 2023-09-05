@@ -1,2 +1,2 @@
 # PersonalProjects
-Projects I completed on my own in code school.
+Projects I completed on my own for practice while in code school.
