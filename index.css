@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    background-color: bisque;
+}
+
+h1{
+    font-family:fantasy;
+    background-color: rgba(245, 154, 42, 0.428);
+    border-radius: 100%;
+    text-align: center;
+}
+h7{
+    background-color: rgba(230, 189, 163, 0.638);
+    border-style:double;
+}
+
+#turn-in-form {
+    margin-top: 3%;
+    text-align: center;
+    align-items: center;
+    padding:1.3%;
+    border-top-left-radius: .8cm;
+    border-bottom-left-radius: .8cm;
+    border-top-right-radius: .8cm;
+    border-bottom-right-radius: .8cm;
+    background-color: lightskyblue;
+
+
+}

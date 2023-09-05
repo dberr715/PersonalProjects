@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Intake Form</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+<h1>Patient Intake Form</h1>
+<form>
+<p><em>Please let us know your information so we can best serve you!</em></p>
+
+    <input type="text" placeholder="First Name" id="firstName">
+    <input type="text" placeholder="Last Name" id="lastName">
+    <br>
+    <br>
+    <h5>Gender</h5> 
+    <br>
+    
+    <input type="radio" name="gender" id="male" value="Male">
+        <label for="male">Male</label> 
+    <input type="radio" name="gender" id="female" value="Female">
+        <label for="female" >Female</label> 
+    <input type="radio" name="gender" id="noAnswer" value="Prefer not to say">
+        <label for="noAnswer" >Prefer not to say</label> 
+        <br>
+        <br>
+    <input type="date" id="birthdate">
+        <label for="birthdate">Date of Birth</label>
+        <br>
+        <br>
+            <h7>Please select all that you have experienced</h7> 
+    
+                <br>
+    <input type="checkbox" id="headache" value="Headache">
+        <label for="headache" >Headache</label>
+    <input type="checkbox" id="nausea" value="Nausea">
+        <label for="nausea">Nausea</label>
+    <input type="checkbox" id="body-aches" value="Body Aches">
+        <label for="body-aches">Body Aches</label>
+        <br>
+    <input type="checkbox" id="dizziness" value="Dizziness">
+        <label for="dizziness">Dizziness</label>
+    <input type="checkbox" id="irreg-heartbeat" value="Irregular Heartbeat">
+        <label for="irreg-heartbeat">Irregular Heartbeat</label>
+    <input type="checkbox" id="loss-of-vision" value="Loss of Vision">
+        <label for="loss-of-vision">Loss of Vision</label>
+        <br>
+    <input type="checkbox" id="other" value="Other">
+        <label for="other">Other</label>
+    <!-- <input type="text" placeholder="please list others"> -->
+    <br>
+    <input type="button" id="turn-in-form" value="Turn in Form">
+        
+</form>
+
+<script src="./script.js"></script>
+</body>
+
+</html>
